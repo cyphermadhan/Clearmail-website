@@ -3,10 +3,11 @@ import "./Firstfold.css";
 
 export default function Firstfold() {
   return (
-    <div className="centerImage">
-      <h1> Organise your emails </h1>
-      <h2>in a better way</h2>
-      <img src="./centerImage.webp" />
+    <div className="sectionOne">
+      <img className="pattern-1" src="./pattern1.svg" />
+      <h1 className="superHeading"> Organise your emails </h1>
+      <h2 className="subSuperHeading">in a better way</h2>
+      <img className="centerImage" src="./centerImage.webp" />
     </div>
   );
 }

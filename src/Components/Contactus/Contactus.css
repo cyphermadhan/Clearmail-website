@@ -1,0 +1,93 @@
+.label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #adadad;
+  letter-spacing: 2.5px;
+  margin-bottom: 16px;
+}
+
+.emailInput {
+  position: relative;
+  width: 380px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+}
+
+input[type="email"] {
+  padding: 16px 14px;
+  background-color: none;
+  border: none;
+  border-radius: 12px;
+  /* height: 40px; */
+  color: #3b3b3b;
+  font-size: 18px;
+  width: 300px;
+  background: transparent;
+}
+
+.mailIcon {
+  box-sizing: border-box;
+  /* align-self: baseline; */
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.emailSection > .primaryButton {
+  margin-top: 20px;
+}
+
+.emailSection {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.adminContact {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.adminMail {
+  font-size: 24px;
+  color: #0052cc;
+  margin-top: 10px;
+}
+
+.adminContact > .label {
+  margin: 0 auto;
+}
+
+.creators > .label {
+  margin: 0 auto;
+}
+
+.cNames {
+  margin-top: 10px;
+  color: #0052cc;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.footerGraphics {
+  z-index: -1;
+}
+/* .pattern-2 {
+  margin-top: 320px;
+  width: auto;
+} */
+
+.pattern-3 {
+  position: absolute;
+  left: 0px;
+  top: 1500px;
+}
+
+.pattern-4 {
+  position: absolute;
+  right: 0px;
+  top: 1700px;
+}

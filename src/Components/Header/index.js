@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerBG">
-        <img src="./logo.svg" />
-        <button className="mainButton">Get early access</button>
+        <img className="logo" src="./logo.svg" />
+        <button className="primaryButton">Get early access</button>
       </div>
     </div>
   );
